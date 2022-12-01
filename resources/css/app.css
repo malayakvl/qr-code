@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.error {
+    @apply text-red-700 text-sm absolute;
+    /*bottom: -10px;*/
+    display: block;
+    font-size: 10px;
+}
